@@ -1,11 +1,5 @@
-r = "red"
-o = "orange"
-y = "yellow"
-g = "green"
-b = "blue"
-i = "indigo"
-v = "violet"
-
-def display_rainbow()
-  puts "R: #{r}, O: #{o}, Y: #{y}, G: #{g}, B: #{b}, I: #{i}, V: #{v}"
+def display_rainbow(colors)
+  puts "R: #{colors[0]}, O: #{colors[1]}, Y: #{colors[2]}, "
+  puts "G: #{colors[3]}, B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}"
 end
+display_rainbow()
